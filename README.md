@@ -16,22 +16,21 @@ This project implements image steganography in C using the Least Significant Bit
 - Image appearance remains visually unchanged
 
 ## How to Run
-Clone the Repository: git clone https://github.com/gayathrikarasi-dev/steganography-c.git
-`c steganography-c
+Clone the Repository: git clone https://github.com/gayathrikarasi-dev/steganography-c.git cd mp3-tag-reader
 
-### Compile the Program
+## Compile the Program
 - gcc src/steganography.c -o steganography
 
-### Run the Program
+## Run the Program
 ./mp3_tag_reader
 
-### Encoding
+## Encoding
 - ./steganography -e beautiful.bmp secret.txt output.bmp
 
-### Decoding
+## Decoding
 - ./steganography -d output.bmp output.txt
 
-### Command-Line Options
+## Command-Line Options
 - -e Encode secret data into image
 - -d Decode secret data from image
 
@@ -40,26 +39,6 @@ Clone the Repository: git clone https://github.com/gayathrikarasi-dev/steganogra
 - Original image is not modified directly
 - Temporary file is used during encoding
 - Sample image and text files are provided
-
-## Project Structure
-- steganography-c/
-- include/
-- common.h
-- encode.h
-- decode.h
-- src/
-- main.c
-- encode.c
-- decode.c
-- images/
-- encode.png
-- decode.png
-- beautiful.bmp
-- secret.txt
-- output.bmp
-- output.txt
-- README.md
-- .gitignore
 
 ## Skills Learned
 - C programming
@@ -73,8 +52,34 @@ Clone the Repository: git clone https://github.com/gayathrikarasi-dev/steganogra
 - GCC or any C compiler
 - Linux or Windows operating system
 
-## Sample Files
-- beautiful.bmp Sample input image
-- secret.txt Secret message file
-- output.bmp Encoded image
-- output.txt Decoded message file
+## Screenshots
+
+### Help
+
+
+### View
+
+
+
+## Project Structure
+steganography-c/
+├── include/
+│   ├── common.h
+│   ├── encode.h
+│   └── decode.h
+├── src/
+│   ├── main.c
+│   ├── encode.c
+│   └── decode.c
+├── images/
+│   ├── encode.png
+│   └── decode.png
+├── beautiful.bmp
+├── secret.txt
+├── output.bmp
+├── output.txt
+├── README.md
+└── .gitignore
+
+
+
