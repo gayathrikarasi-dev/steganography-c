@@ -55,7 +55,7 @@ Clone the Repository: git clone https://github.com/gayathrikarasi-dev/steganogra
 ## Screenshots
 
 ### Encode
-<img width="1280" height="572" alt="image" src="https://github.com/user-attachments/assets/7e5ea01a-2027-4bf9-b7df-f0efe0fb6c89" />
+<img width="1308" height="546" alt="image" src="https://github.com/user-attachments/assets/860a61f0-14c3-44e6-b148-bfa9e0f9f7ba" />
 
 ### Decode
 <img width="1345" height="334" alt="image" src="https://github.com/user-attachments/assets/43da3b42-22dd-45aa-ba36-6177718ac513" />
