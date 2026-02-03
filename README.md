@@ -16,15 +16,14 @@ This project implements image steganography in C using the Least Significant Bit
 - Image appearance remains visually unchanged
 
 ## How to Run
-
-### Clone the Repository
-- git clone https://github.com/gayathrikarasi-dev/steganography-c.git
-`cd steganography-c
+Clone the Repository: git clone https://github.com/gayathrikarasi-dev/steganography-c.git
+`c steganography-c
 
 ### Compile the Program
 - gcc src/steganography.c -o steganography
 
 ### Run the Program
+./mp3_tag_reader
 
 ### Encoding
 - ./steganography -e beautiful.bmp secret.txt output.bmp
