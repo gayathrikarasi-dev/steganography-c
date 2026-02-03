@@ -21,8 +21,8 @@
 ## How to Run
 
 ## Clone the Repository
-- git clone https://github.com/sadvika-ch/steganography-c.git
-- cd steganography-c
+- git clone 
+`cd steganography-c`
 
 ## Compile the Program
 - gcc src/steganography.c -o steganography
