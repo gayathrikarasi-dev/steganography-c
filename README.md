@@ -21,7 +21,7 @@
 ## How to Run
 
 ## Clone the Repository
-- git clone 
+- git clone https://github.com/gayathrikarasi-dev/steganography-c.git
 `cd steganography-c`
 
 ## Compile the Program
