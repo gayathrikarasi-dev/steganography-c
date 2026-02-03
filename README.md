@@ -20,20 +20,20 @@
 
 ## How to Run
 
-## Clone the Repository
+### Clone the Repository
 - git clone https://github.com/gayathrikarasi-dev/steganography-c.git
 `cd steganography-c`
 
-## Compile the Program
-- gcc src/steganography.c -o steganography
+### Compile the Program
+- gcc src/steganography.c -o steganography`
 
-## Run the Program
+### Run the Program
 
 ## Encoding
-- ./steganography -e beautiful.bmp secret.txt output.bmp
+- ./steganography -e beautiful.bmp secret.txt output.bmp`
 
 ## Decoding
-- ./steganography -d output.bmp output.txt
+- ./steganography -d output.bmp output.txt``
 
 ## Command-Line Options
 - -e Encode secret data into image
