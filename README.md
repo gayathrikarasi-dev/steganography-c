@@ -1,10 +1,7 @@
 # Steganography Using C (LSB Technique)
 
 ## Overview
-- This project implements image steganography in C
-- Uses Least Significant Bit (LSB) technique
-- Hides secret text inside BMP images
-- Allows decoding of hidden data without image distortion
+This project implements image steganography in C using the Least Significant Bit (LSB) technique. It allows secret text messages to be hidden inside BMP image files and later extracted without causing noticeable changes to the image.
 
 ## Features
 - Encode secret messages into BMP images
@@ -22,20 +19,20 @@
 
 ### Clone the Repository
 - git clone https://github.com/gayathrikarasi-dev/steganography-c.git
-`cd steganography-c`
+`cd steganography-c
 
 ### Compile the Program
-- gcc src/steganography.c -o steganography`
+- gcc src/steganography.c -o steganography
 
 ### Run the Program
 
-## Encoding
-- ./steganography -e beautiful.bmp secret.txt output.bmp`
+### Encoding
+- ./steganography -e beautiful.bmp secret.txt output.bmp
 
-## Decoding
-- ./steganography -d output.bmp output.txt``
+### Decoding
+- ./steganography -d output.bmp output.txt
 
-## Command-Line Options
+### Command-Line Options
 - -e Encode secret data into image
 - -d Decode secret data from image
 
