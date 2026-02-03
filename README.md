@@ -8,7 +8,7 @@
 
 ## Features
 - Encode secret messages into BMP images
-- Decode hidden messages from encoded imagesm
+- Decode hidden messages from encoded images
 - Supports BMP image format
 - Command-line based interface
 - Sample files included for testing
