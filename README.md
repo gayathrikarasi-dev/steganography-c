@@ -52,15 +52,6 @@ Clone the Repository: git clone https://github.com/gayathrikarasi-dev/steganogra
 - GCC or any C compiler
 - Linux or Windows operating system
 
-## Screenshots
-
-### Encode
-<img width="1308" height="546" alt="image" src="https://github.com/user-attachments/assets/860a61f0-14c3-44e6-b148-bfa9e0f9f7ba" />
-
-### Decode
-<img width="1345" height="334" alt="image" src="https://github.com/user-attachments/assets/43da3b42-22dd-45aa-ba36-6177718ac513" />
-
-
 ## Project Structure
 steganography-c/
 ├── include/
@@ -80,6 +71,4 @@ steganography-c/
 ├── output.txt
 ├── README.md
 └── .gitignore
-
-
 
